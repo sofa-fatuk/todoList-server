@@ -1,0 +1,7 @@
+CREATE DATABASE ToDoList;
+USE ToDoList;
+CREATE TABLE ListItems (
+  id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255),
+  isChecked BOOLEAN
+);
